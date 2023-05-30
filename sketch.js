@@ -10,7 +10,7 @@ let sum2 = Math.floor(Math.random() * 21);
 
 
 
-
+let yourMom;
 
 
 let correctArray = [];
