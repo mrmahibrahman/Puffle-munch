@@ -46,12 +46,12 @@ function setup() {
     
    
     for (let i = 0; i < 1; i++) {
-      let temp = new Correct(random(0, 400), 0, 255, 0, 0, random(3,6));
+      let temp = new Correct(random(0, 400), 0, 255, 0, 0, random(2,3));
       correctArray.push(temp);
   } 
 
   for (let i = 0; i < 3; i++) {
-    let temp1 = new Wrong(random(0, 400), 0, 255, 0, 0, random(3,6));
+    let temp1 = new Wrong(random(0, 400), 0, 255, 0, 0, random(2,3));
     wrongArray.push(temp1);
   }
 
@@ -196,7 +196,7 @@ class Correct {
     }
 
     myLeft = mouseX;
-    myRight = mouseX + 60;
+    myRight = mouseX + 50;
     myTop = 550;
     myBottom = 570;
 
@@ -216,8 +216,8 @@ class Correct {
   }
 
   function checkCollision(x, y, w, h) {
-    ballLeft = x;
-    ballRight = x + w;
+    ballLeft = x + 10;
+    ballRight = x + 40;
     ballTop = y;
     ballBottom = y + h;
 
