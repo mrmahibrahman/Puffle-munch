@@ -28,4 +28,5 @@ canvas {
 
 button {
   background-color: rgb(240, 238, 238);
+  border-radius: 20cm;
 }
