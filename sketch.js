@@ -195,7 +195,7 @@ class Correct {
       }
     }
 
-    myLeft = mouseX;
+    myLeft = mouseX + 7;
     myRight = mouseX + 50;
     myTop = 550;
     myBottom = 570;
